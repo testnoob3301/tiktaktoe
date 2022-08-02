@@ -1,0 +1,42 @@
+
+.grid-container{
+  color: whitesmoke;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+  padding: 10px;
+  justify-content: center;
+  width: 15rem;
+}
+
+#titl{
+  align-items: center;
+  text-align: center;
+  color: white;
+  height: 10vh;
+  background-color: black;
+}
+#main{
+height: 90vh;
+background: currentColor;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.grid-item:hover{
+  /* padding: 5px 5px; */
+  cursor: pointer;
+  background-color: whitesmoke;
+  color: black;
+}
+.grid-item{
+  border: 0.5px solid white;
+  display: flex;
+  width: 4rem;
+  height: 4rem;
+  padding: 1px 2px;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
